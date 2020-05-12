@@ -3,8 +3,10 @@
 # YOUR CODE HERE
 
 
-def is_even(num):
-    print(num % 2 == 0)
+def is_even(num): 2
+
+
+print(num % 2 == 0)
 
 
 is_even(2)
