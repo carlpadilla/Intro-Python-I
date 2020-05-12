@@ -45,3 +45,11 @@ waypoints = [
 
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
+
+
+
+# for waypoint in waypoints:
+#     for key in waypoint:
+#         print(waypoint[key])
+
+[print(waypoint[key]) for waypoint in waypoints for key in waypoint]
