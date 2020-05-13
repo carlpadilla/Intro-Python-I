@@ -12,7 +12,7 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 # YOUR CODE HERE
 
 f = open('foo.txt', 'r')
-print(f.readlines())
+print(f.read())
 f.close()
 
 
@@ -24,8 +24,8 @@ f.close()
 # YOUR CODE HERE
 
 e = open('bar.txt', 'w')
-e.write("I\'m learning python\nIt\'s different\nI like Data Science")
+e.write("I\'m learning python\nIt\'s different \n I like Data Science")
 e.close()
 
 e = open('bar.txt', 'r')
-print(e.readlines())
+print(e.read())
